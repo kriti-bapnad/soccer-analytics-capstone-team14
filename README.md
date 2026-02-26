@@ -10,9 +10,13 @@ This project aims to build an MIT-licensed, open-source analytics pipeline that 
 
 ### Data Available
 This project uses public, event-level soccer data derived from the StatsBomb Open Data format, stored locally as Parquet files and processed using Polars.
+
 Match Metadata :Includes competition, season, match date, home and away teams, and final score.
+
 Event Data: Event-level records capturing every on-ball action in a match (e.g., passes, shots, duels, fouls) with timestamps, team and player identifiers, event type, pitch location, and outcome details.
+
 Lineups: Match-specific player rosters with player IDs, team affiliations, and positions.
+
 Prediction Market Data: Polymarket soccer data (market metadata, odds history, trades).
 
 Our Team:
